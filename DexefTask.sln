@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexefTask.API", "DexefTask.API\DexefTask.API.csproj", "{D8BE299C-CF7A-4E69-B1DE-5DE5A8CB3FA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexefTask.BusinessLogic", "DexefTask.BusinessLogic\DexefTask.BusinessLogic.csproj", "{3C1F628C-CB08-4810-A91C-ABA0AC1BBA9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexefTask.DataAccess", "DexefTask.DataAccess\DexefTask.DataAccess.csproj", "{35A365F1-FF66-4AB0-81F9-810C0E2688F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexefTask.BusinessLogic.Tests", "DexefTask.BusinessLogic.Tests\DexefTask.BusinessLogic.Tests.csproj", "{6C73B5D1-3605-4553-AA8C-FB182C5C6920}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DexefTask.API.IntegrationTests", "DexefTask.API.IntegrationTests\DexefTask.API.IntegrationTests.csproj", "{8C059B09-1B63-4288-AAE5-F1A899A064B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8BE299C-CF7A-4E69-B1DE-5DE5A8CB3FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BE299C-CF7A-4E69-B1DE-5DE5A8CB3FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BE299C-CF7A-4E69-B1DE-5DE5A8CB3FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BE299C-CF7A-4E69-B1DE-5DE5A8CB3FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C1F628C-CB08-4810-A91C-ABA0AC1BBA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1F628C-CB08-4810-A91C-ABA0AC1BBA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1F628C-CB08-4810-A91C-ABA0AC1BBA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1F628C-CB08-4810-A91C-ABA0AC1BBA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A365F1-FF66-4AB0-81F9-810C0E2688F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A365F1-FF66-4AB0-81F9-810C0E2688F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A365F1-FF66-4AB0-81F9-810C0E2688F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A365F1-FF66-4AB0-81F9-810C0E2688F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C73B5D1-3605-4553-AA8C-FB182C5C6920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C73B5D1-3605-4553-AA8C-FB182C5C6920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C73B5D1-3605-4553-AA8C-FB182C5C6920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C73B5D1-3605-4553-AA8C-FB182C5C6920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C059B09-1B63-4288-AAE5-F1A899A064B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C059B09-1B63-4288-AAE5-F1A899A064B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C059B09-1B63-4288-AAE5-F1A899A064B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C059B09-1B63-4288-AAE5-F1A899A064B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FD5EBED-EFF5-4327-9FD5-3C99594B3F9C}
+	EndGlobalSection
+EndGlobal

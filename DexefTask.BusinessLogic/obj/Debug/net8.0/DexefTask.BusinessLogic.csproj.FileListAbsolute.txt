@@ -1,0 +1,15 @@
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\bin\Debug\net8.0\DexefTask.BusinessLogic.deps.json
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\bin\Debug\net8.0\DexefTask.BusinessLogic.dll
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\bin\Debug\net8.0\DexefTask.BusinessLogic.pdb
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\bin\Debug\net8.0\DexefTask.DataAccess.dll
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\bin\Debug\net8.0\DexefTask.DataAccess.pdb
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\obj\Debug\net8.0\DexefTask.BusinessLogic.csproj.AssemblyReference.cache
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\obj\Debug\net8.0\DexefTask.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\obj\Debug\net8.0\DexefTask.BusinessLogic.AssemblyInfoInputs.cache
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\obj\Debug\net8.0\DexefTask.BusinessLogic.AssemblyInfo.cs
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\obj\Debug\net8.0\DexefTask.BusinessLogic.csproj.CoreCompileInputs.cache
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\obj\Debug\net8.0\DexefTask.BusinessLogic.csproj.CopyComplete
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\obj\Debug\net8.0\DexefTask.BusinessLogic.dll
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\obj\Debug\net8.0\refint\DexefTask.BusinessLogic.dll
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\obj\Debug\net8.0\DexefTask.BusinessLogic.pdb
+F:\DexefTask\DexefTask\DexefTask.BusinessLogic\obj\Debug\net8.0\ref\DexefTask.BusinessLogic.dll

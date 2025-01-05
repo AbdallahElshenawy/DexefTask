@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "VRk/8F3GPdYSmFDEBOcmb7tjF5VdMJFf5f43KveAry0=",
+  "Source": "DexefTask.API",
+  "BasePath": "_content/DexefTask.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "F:\\DexefTask\\DexefTask\\DexefTask.DataAccess\\DexefTask.DataAccess.csproj",
+      "Version": 2,
+      "Source": "DexefTask.DataAccess",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

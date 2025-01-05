@@ -1,0 +1,14 @@
+F:\DexefTask\DexefTask\DexefTask.DataAccess\bin\Debug\net8.0\DexefTask.DataAccess.deps.json
+F:\DexefTask\DexefTask\DexefTask.DataAccess\bin\Debug\net8.0\DexefTask.DataAccess.runtimeconfig.json
+F:\DexefTask\DexefTask\DexefTask.DataAccess\bin\Debug\net8.0\DexefTask.DataAccess.dll
+F:\DexefTask\DexefTask\DexefTask.DataAccess\bin\Debug\net8.0\DexefTask.DataAccess.pdb
+F:\DexefTask\DexefTask\DexefTask.DataAccess\obj\Debug\net8.0\DexefTask.DataAccess.csproj.AssemblyReference.cache
+F:\DexefTask\DexefTask\DexefTask.DataAccess\obj\Debug\net8.0\DexefTask.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\DexefTask\DexefTask\DexefTask.DataAccess\obj\Debug\net8.0\DexefTask.DataAccess.AssemblyInfoInputs.cache
+F:\DexefTask\DexefTask\DexefTask.DataAccess\obj\Debug\net8.0\DexefTask.DataAccess.AssemblyInfo.cs
+F:\DexefTask\DexefTask\DexefTask.DataAccess\obj\Debug\net8.0\DexefTask.DataAccess.csproj.CoreCompileInputs.cache
+F:\DexefTask\DexefTask\DexefTask.DataAccess\obj\Debug\net8.0\DexefTask.DataAccess.dll
+F:\DexefTask\DexefTask\DexefTask.DataAccess\obj\Debug\net8.0\refint\DexefTask.DataAccess.dll
+F:\DexefTask\DexefTask\DexefTask.DataAccess\obj\Debug\net8.0\DexefTask.DataAccess.pdb
+F:\DexefTask\DexefTask\DexefTask.DataAccess\obj\Debug\net8.0\DexefTask.DataAccess.genruntimeconfig.cache
+F:\DexefTask\DexefTask\DexefTask.DataAccess\obj\Debug\net8.0\ref\DexefTask.DataAccess.dll

@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DexefTask.API</name>
+    </assembly>
+    <members>
+        <member name="T:DexefTask.API.Controllers.AuthController">
+            <summary>
+            Controller for handling authentication-related operations such as user registration and login.
+            </summary>
+        </member>
+        <member name="M:DexefTask.API.Controllers.AuthController.#ctor(DexefTask.BusinessLogic.Interfaces.IServices.Authentication.IAuthService)">
+            <summary>
+            Controller for handling authentication-related operations such as user registration and login.
+            </summary>
+        </member>
+        <member name="M:DexefTask.API.Controllers.AuthController.RegisterAsync(DexefTask.DataAccess.Models.Authentication.RegisterModel)">
+            <summary>
+            Registers a new user in the system.
+            </summary>
+            <param name="model">The model containing the user's registration information.</param>
+            <returns>A response indicating the success or failure of the registration process.</returns>
+        </member>
+        <member name="M:DexefTask.API.Controllers.AuthController.LoginAsync(DexefTask.DataAccess.Models.Authentication.LoginModel)">
+            <summary>
+            Logs in an existing user to the system and asks for the token.
+            </summary>
+            <param name="model">The model containing the user's login information.</param>
+            <returns>A response containing the user's roles, email, username, token, and expiration details if login is successful.</returns>
+        </member>
+        <member name="T:DexefTask.API.Controllers.BooksController">
+            <summary>
+            Controller for managing books in the system.
+            </summary>
+        </member>
+        <member name="M:DexefTask.API.Controllers.BooksController.#ctor(DexefTask.BusinessLogic.Interfaces.IServices.IBookServices,Microsoft.Extensions.Caching.Memory.IMemoryCache)">
+            <summary>
+            Controller for managing books in the system.
+            </summary>
+        </member>
+        <member name="M:DexefTask.API.Controllers.BooksController.GetAll">
+            <summary>
+            Retrieves all books from the system, using caching to improve performance.
+            </summary>
+        </member>
+        <member name="M:DexefTask.API.Controllers.BooksController.Add(DexefTask.BusinessLogic.DTO.Book.BookToAddDTO)">
+            <summary>
+            Adds a new book to the system.
+            </summary>
+            <param name="book">The details of the book to be added.</param>
+            <returns>The added book.</returns>
+        </member>
+        <member name="M:DexefTask.API.Controllers.BooksController.GetById(System.Guid)">
+            <summary>
+            Retrieves a book by its unique identifier.
+            </summary>
+            <param name="id">The unique identifier of the book.</param>
+            <returns>The book with the specified ID.</returns>
+        </member>
+        <member name="M:DexefTask.API.Controllers.BooksController.Delete(System.Guid)">
+            <summary>
+            Deletes a book by its unique identifier.
+            </summary>
+            <param name="id">The unique identifier of the book to be deleted.</param>
+            <returns>Confirmation message on successful deletion.</returns>
+        </member>
+        <member name="M:DexefTask.API.Controllers.BooksController.Edit(System.Guid,DexefTask.BusinessLogic.DTO.Book.BookToAddDTO)">
+            <summary>
+            Updates the information of an existing book.
+            </summary>
+            <param name="id">The unique identifier of the book to be updated.</param>
+            <param name="book">The new details of the book.</param>
+            <returns>Confirmation message on successful update.</returns>
+        </member>
+        <member name="T:DexefTask.API.Controllers.BorrowController">
+            <summary>
+            Controller for handling book borrowing operations.
+            Users can borrow books and view their borrowed books.
+            </summary>
+        </member>
+        <member name="M:DexefTask.API.Controllers.BorrowController.#ctor(DexefTask.BusinessLogic.Interfaces.IServices.IBorrowedBookService)">
+            <summary>
+            Controller for handling book borrowing operations.
+            Users can borrow books and view their borrowed books.
+            </summary>
+        </member>
+        <member name="M:DexefTask.API.Controllers.BorrowController.BorrowBook(System.String)">
+            <summary>
+            Allows a user to borrow a book.
+            </summary>
+            <param name="bookId">The ID of the book to be borrowed.</param>
+            <returns>A response indicating whether the book borrowing was successful or not.</returns>
+        </member>
+        <member name="M:DexefTask.API.Controllers.BorrowController.GetBorrowedBooks">
+            <summary>
+            Retrieves all books that a user has borrowed.
+            </summary>
+            <returns>A list of borrowed books.</returns>
+        </member>
+    </members>
+</doc>

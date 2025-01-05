@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lfbleqLybpdByq9iVXtEp2jFJVL4c5xwqeGCoL0HMvU=",
+  "Source": "DexefTask.DataAccess",
+  "BasePath": "_content/DexefTask.DataAccess",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
