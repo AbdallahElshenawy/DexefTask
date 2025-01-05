@@ -37,8 +37,15 @@ Before you begin, ensure you have the following installed:
     cd ../DexefTask.BusinessLogic.Tests
     
     dotnet restore
-3. Run the project:
-    ```bash
+
+3. Update the database: After restoring dependencies, update the database to match the application's requirements:
+   ```bash
+    cd ../DexefTask.API
+
+    dotnet ef database update
+
+4. Run the project:
+   ```bash
     To run the application:
     
     cd ../DexefTask.API
@@ -50,3 +57,44 @@ Before you begin, ensure you have the following installed:
     cd ../DexefTask.BusinessLogic.Tests
     
     dotnet test
+
+## API Endpoints
+
+### AuthController
+- **POST** `/api/auth/register`
+  - Registers a new user in the system.
+  
+- **POST** `/api/auth/login`
+  - Logs in an existing user and returns a token.
+  - **Example Credentials To Test The Endpoints**:
+    - **User**: 
+     "email": "string@yahoo.com",
+     "password":"string123@aA"
+
+    - **Admin**: 
+      "email": "admin@gmail.com",
+      "password": "123456@aA"
+
+### BooksController
+- **GET** `/api/books`
+  - Retrieves all books from the system (requires Admin or User role).
+  
+- **POST** `/api/books`
+  - Adds a new book to the system (requires Admin role).
+  
+- **GET** `/api/books/{id}`
+  - Retrieves a book by its unique identifier (requires Admin or User role).
+  
+- **DELETE** `/api/books/{id}`
+  - Deletes a book by its unique identifier (requires Admin role).
+  
+- **PUT** `/api/books/{id}`
+  - Updates the information of an existing book (requires Admin role).
+
+### BorrowController (requires User role)
+- **POST** `/api/borrow/{bookId}`
+  - Allows a user to borrow a book.
+  
+- **GET** `/api/borrow`
+  - Retrieves all books that the logged-in user has borrowed.
+
