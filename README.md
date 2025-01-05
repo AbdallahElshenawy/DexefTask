@@ -50,12 +50,3 @@ Before you begin, ensure you have the following installed:
     cd ../DexefTask.BusinessLogic.Tests
     
     dotnet test
-
-
-
-
-
-
-
-
-
